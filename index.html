@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>simple calculator js</title>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="simple calculator with javascript"/>
+	<meta name="keywords" content="simple calculator, js, html5, css3, calculator js, javascript"/>
+	<meta name="author" content="Jonás Damián Hernández [jonasdamher]"/>
+	<link rel="stylesheet" type="text/css" href="public/css/main.css"/>
+</head>
+
+<body>
+	<main>
+		<section class="container">
+			<section class="card">
+				<div class="card-body">
+					<div class="card-calculator-display">
+						<p id="display-calculator"></p>
+					</div>
+					<div class="card-calculator-container">
+						<div class="card-calculator-number">
+							<div class="card-calculator-row">
+								<button type="button" value="1" class="btn btn-calculator">1</button>
+								<button type="button" value="2" class="btn btn-calculator">2</button>
+								<button type="button" value="3" class="btn btn-calculator">3</button>
+							</div>
+							<div class="card-calculator-row">
+								<button type="button" value="4" class="btn btn-calculator">4</button>
+								<button type="button" value="5" class="btn btn-calculator">5</button>
+								<button type="button" value="6" class="btn btn-calculator">6</button>
+							</div>
+							<div class="card-calculator-row">
+								<button type="button" value="7" class="btn btn-calculator">7</button>
+								<button type="button" value="8" class="btn btn-calculator">8</button>
+								<button type="button" value="9" class="btn btn-calculator">9</button>
+							</div>
+							<div class="card-calculator-row">
+								<button type="button" value="0" class="btn btn-calculator f-grow">0</button>
+								<button type="button" value="." class="btn btn-secondary btn-calculator">.</button>
+							</div>
+						</div>
+						<div class="card-calculator-operators">
+							<button type="button" value="-" class="btn btn-secondary btn-calculator">-</button>
+							<button type="button" value="+" class="btn btn-secondary btn-calculator">+</button>
+							<button type="button" value="*" class="btn btn-secondary btn-calculator">x</button>
+							<button type="button" value="/" class="btn btn-secondary btn-calculator">/</button>
+						</div>
+					</div>
+					<div class="card-calculator-options">
+						<button type="button" id="clear" class="btn btn-secondary btn-calculator f-grow">AC</button>
+						<button type="button" id="last-remove" class="btn btn-secondary btn-calculator f-grow">CE</button>
+						<button type="button" id="calc" class="btn btn-equal">=</button>
+					</div>
+				</div>
+			</section>
+		</section>
+	</main>
+	<!-- SCRIPTS -->
+	<script src="public/js/calculator.js"></script>
+</body>
+
+</html>
